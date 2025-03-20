@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.section {
+    @apply pt-16 max-sm:pt-20 md:pt-24 lg:pt-28 xl:pt-32;
+}
+
+.img-cover {
+    @apply w-full h-full object-cover;
+}
+
+.h1 {
+    @apply text-5xl leading-tight font-semibold lg:text-[45px] lg:leading-[1.15] max-w-max;
+    background: -webkit-linear-gradient(0deg, #fafafa, #828289);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h2 {
+    @apply text-3xl  leading-tight lg:text-[55px] lg:leading-[1.15] max-w-max;
+    background: -webkit-linear-gradient(0deg, #fafafa, #828289);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h21 {
+    background: -webkit-linear-gradient(0deg, #fafafa, #8e8e96);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-1 {
+    @apply text-[22px] font-normal;
+}
+
+.label {
+    @apply block text-zinc-200 text-sm font-normal mb-2;
+}
+
+.text-field {
+    @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-sky-400 focus:ring-2;
+}
+
+.text-field::placeholder {
+    @apply text-zinc-600;
+}
