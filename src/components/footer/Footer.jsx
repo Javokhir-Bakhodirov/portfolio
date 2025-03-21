@@ -34,6 +34,10 @@ const socials = [
         label: "Instagram",
         href: "https://www.instagram.com/java3414_?igsh=MXMxdXZwaXo0M3NvZw==",
     },
+    {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/javokhir-bakhodirov-626a6a33b/",
+    },
 ];
 
 const Footer = () => {

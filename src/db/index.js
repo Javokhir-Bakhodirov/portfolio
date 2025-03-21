@@ -11,6 +11,7 @@ import evago from "../img/evago.jpg";
 import pizza from "../img/pizza.jpg";
 import eCommery from "../img/eComery.jpg";
 import greenShop from "../img/greenShop.png";
+import i18n from "../img/i18next.png";
 
 export const skills = [
     {
@@ -103,5 +104,12 @@ export const works = [
         title: "eCommerce website",
         tags: ["Next.js", "Tanstack Query"],
         projectLink: "https://github.com/Javokhir-Bakhodirov/GreenShop",
+    },
+    {
+        id: 5,
+        imgSrc: i18n,
+        title: "eCommerce website",
+        tags: ["i18next", "RTK Query"],
+        projectLink: "https://github.com/Javokhir-Bakhodirov/imtihon-6",
     },
 ];
